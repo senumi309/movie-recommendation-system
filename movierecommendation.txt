@@ -1,8 +1,0 @@
-Movie Recommendation System | Python, Pandas, Scikit-learn, Streamlit, GitHub
-
-• Built an Item-Based Collaborative Filtering recommendation system using the MovieLens dataset containing 100,000+ ratings.
-• Performed exploratory data analysis (EDA) to analyze user rating patterns and movie popularity.
-• Created a user-movie interaction matrix and calculated movie similarities using Cosine Similarity.
-• Developed a reusable MovieRecommender Python module for generating movie recommendations.
-• Designed and implemented an interactive Streamlit web application that allows users to search for movies and receive recommendations.
-• Used Git and GitHub for version control with milestone-based commits throughout development.
