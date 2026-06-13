@@ -15,9 +15,9 @@ st.write(
 
 recommender = MovieRecommender()
 
-movie_title = st.text_input(
-    "Movie Title",
-    "Toy Story"
+movie_title = st.selectbox(
+    "Select a Movie",
+    sorted(recommender.movies["title"].tolist())
 )
 
 if st.button("Get Recommendations"):

@@ -54,11 +54,7 @@ class MovieRecommender:
             self.build_model()
 
         movie = self.movies[
-            self.movies["title"].str.contains(
-                movie_title,
-                case=False,
-                na=False
-            )
+            self.movies["title"] == movie_title
         ]
 
         if len(movie) == 0:
