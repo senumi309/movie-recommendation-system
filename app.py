@@ -13,8 +13,14 @@ st.write(
     "Enter a movie title and get similar movie recommendations."
 )
 
-recommender = MovieRecommender()
+@st.cache_resource
+def load_recommender():
+    recommender = MovieRecommender()
+    recommender.build_model()
+    return recommender
 
+
+recommender = load_recommender()
 movie_title = st.selectbox(
     "Select a Movie",
     sorted(recommender.movies["title"].tolist())
