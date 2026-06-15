@@ -253,6 +253,14 @@ Through this project I gained practical experience with:
 
 ## Author
 
-**Senumi Weerakoon**
+**W.M.S. Methara Senumi**
+
+Data Science Undergraduate at SLIIT
+
+GitHub: https://github.com/senumi309
+
+LinkedIn: https://www.linkedin.com/in/Senumi%20Weerakoon
+
+Live Demo: https://senumi-movie-recommendation-system.streamlit.app
 
 Built as a Machine Learning and Data Science portfolio project.
