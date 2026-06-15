@@ -214,7 +214,6 @@ This approach recommends movies based on collective user preferences rather than
 * Add movie search and filtering
 * Implement content-based filtering
 * Hybrid recommendation system
-* Deploy application online
 * Optimize model loading with caching
 * Add recommendation explanations
 
