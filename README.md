@@ -6,6 +6,12 @@ The system recommends movies similar to a selected movie using **Item-Based Coll
 
 ---
 
+## Live Demo
+
+🔗 [Try the Application](https://senumi-movie-recommendation-system.streamlit.app)
+
+---
+
 ## Project Overview
 
 This project analyzes user movie ratings and builds a recommendation engine that suggests movies similar to a selected movie based on historical user rating behavior.
