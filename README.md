@@ -219,6 +219,23 @@ This approach recommends movies based on collective user preferences rather than
 
 ---
 
+## Results
+
+Example recommendation generated for:
+
+**Star Wars: Episode IV - A New Hope (1977)**
+
+Top recommendations:
+
+* Star Wars: Episode V - The Empire Strikes Back (1980)
+* Star Wars: Episode VI - Return of the Jedi (1983)
+* Raiders of the Lost Ark (1981)
+* Indiana Jones and the Last Crusade (1989)
+* The Matrix (1999)
+
+The recommendation engine successfully identifies movies with similar user rating patterns using Item-Based Collaborative Filtering and Cosine Similarity.
+
+
 ## Learning Outcomes
 
 Through this project I gained practical experience with:
